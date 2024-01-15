@@ -13,7 +13,7 @@ import org.testng.annotations.BeforeMethod;
 public class BaseTest {
    @BeforeMethod
     protected void initTest(){
-        RestAssured.baseURI = "https://petstore.swagger.io/";
+        RestAssured.baseURI = "https://petstore.swagger.io/v2";
 
         RequestSpecification specification = new RequestSpecBuilder()
                 .setContentType(ContentType.JSON)

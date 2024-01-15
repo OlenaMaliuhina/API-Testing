@@ -8,6 +8,7 @@ import lombok.*;
 @ToString
 @EqualsAndHashCode
 @Builder
+@NoArgsConstructor
 public class Support {
     private String url;
     private String text;

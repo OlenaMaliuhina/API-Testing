@@ -8,6 +8,7 @@ import lombok.*;
 @ToString
 @EqualsAndHashCode
 @Builder
+@NoArgsConstructor
 public class Data
 {
     private int id;
